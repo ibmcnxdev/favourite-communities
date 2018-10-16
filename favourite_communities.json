@@ -1,0 +1,26 @@
+{
+    "name": "Favourite Communities Application",
+    "title": "Favourite Communitie",
+    "description": "Allows you to keep a list of favourite communities",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Favourite Communities extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "favourite_communities.js"
+                ],
+                "include-repo": {
+                    "name": "favourite-communities"
+                }
+            },
+            "path": "global",
+            "application": "Favourite Communities Application",
+            "state": "enabled"
+        }
+    ]
+}
